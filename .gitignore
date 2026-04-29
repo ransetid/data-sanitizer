@@ -1,0 +1,21 @@
+# 构建产物
+build/
+dist/
+*.spec.bak
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 运行时产物
+sanitizer.log
+_mapping.db
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
